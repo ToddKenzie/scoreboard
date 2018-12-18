@@ -1,3 +1,6 @@
+import React from 'react'
+import ReactDom from 'react-dom'
 import './index.css'
+import App from './containers/App'
 
-document.querySelector('#root').innerHTML = `<h1>Loading...</h1>`
+ReactDom.render(<App />, document.querySelector('#root'));
